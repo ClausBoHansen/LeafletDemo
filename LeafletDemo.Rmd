@@ -6,7 +6,7 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ## Idea
@@ -16,8 +16,9 @@ Data from the trip is captured on my watch, the indata file for this project is 
 
 To reduce the number of positions I will perform a simple generalization of the data. Furthermore, I remember we stopped an looked at the castle. I will detect this stop an mark it on the map.  
 
+<!--
 ![](IMG_2811.JPG)  
-
+-->
 
 
 ## Getting and preparing data
